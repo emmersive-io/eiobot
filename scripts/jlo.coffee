@@ -14,4 +14,4 @@ jlos = [
 module.exports = (robot) ->
 
    robot.hear /jlo/i, (res) ->
-     res.send res.random jlos
+     res.messageRoom '#urban' res.random jlos
