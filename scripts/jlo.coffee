@@ -9,4 +9,4 @@ jlos = [
 module.exports = (robot) ->
 
    robot.hear /jlo/i, (res) ->
-     res.send msg.random jlos
+     res.send res.random jlos
